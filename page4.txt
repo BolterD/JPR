@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <title>Practise</title>
+</head>
+<body onload="init()">
+    <header class="Header">
+        <a href="page.html" class="button1"><b>Back</b></a>
+        <h2>Writing Practise! </h2>
+        <br />
+
+    </header>
+    
+    <div class="ui-content">
+        <div class="wrapper7">
+ 
+            <div>
+                <h1><b>Practise writing</b></h1>
+                <br>
+                <div class="slideshow-container">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 5</div>
+                        <img src="css/images/imag/ a.png" style="width:100%">
+                        <div class="text">Caption Text</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 5</div>
+                        <img src="css/images/imag/ i.png" style="width:100%">
+                        <div class="text">Caption Two</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 5</div>
+                        <img src="css/images/imag/ u.png" style="width:100%">
+                        <div class="text">Caption Three</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 5</div>
+                        <img src="css/images/imag/ e.png" style="width:100%">
+                        <div class="text">Caption Three</div>
+                    </div>
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">5 / 5</div>
+                        <img src="css/images/imag/ o.png" style="width:100%">
+                        <div class="text">Caption Three</div>
+                    </div>
+
+                    <!-- Next and previous buttons -->
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                </div>
+                <br />
+
+                <div id="sketchpadapp">
+                    <div class="leftside">
+                        Practise writing out the hiragana.<br /><br />
+
+                        <input type="submit" class="sketchbutton" value="Clear" onclick="clearCanvas(canvas,ctx);">
+                    </div>
+                    <div class="rightside">
+                        <canvas id="sketchpad" height="800" width="600"></canvas>
+
+                    </div>
+
+                </div>
+                <a href="page.html" class="button1"><b>Back</b></a>
+                
+            </div>
+     </div> 
+    </div>
+<script src="scripts/script1.js"></script>
+<script src="scripts/script.js"></script>               
+</body>
+</html>
